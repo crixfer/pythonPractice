@@ -31,12 +31,31 @@ def main():
 
 #option 3
 
-def square_size(size):
-    for i in range(size):
-        print_row(size)
+# def square_size(size):
+#     for i in range(size):
+#         print_row(size)
 
-def print_row(width):
-    print("#" * width)
+# def print_row(width):
+#     print("#" * width)
 
 
-main()
+# main()
+
+# Matrix
+
+number = 0
+
+def matrix():
+    counter(3)
+
+def counter(n):
+    for i in range(n):
+        n += 1
+        each_number(n)
+
+def each_number(num):
+    print(num * num)
+
+matrix()
+
+
