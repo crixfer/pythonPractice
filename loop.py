@@ -31,8 +31,16 @@
 # print("meow\n" * 3, end="")
 
 def main():
-    meow(3)
+    get_number(number)
 
-def meow(n):
-    for i in range(n):
+while True:
+    number = int(input("What's the number? "))
+    
+    def get_number(number):
+        count(number)
+    break
+
+def count(n):
+    for _ in range(n):
         print("meow")
+main()
