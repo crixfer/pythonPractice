@@ -1,7 +1,7 @@
 #iteration and functions
 
-def main():
-    square_size(3)
+# def main():
+#     square_size(3)
 
 #option 1
 
@@ -41,21 +41,13 @@ def main():
 
 # main()
 
-# Matrix
+# Matrix - Con números (no strings)
 
-number = 0
-
-def matrix():
-    counter(3)
-
-def counter(n):
-    for i in range(n):
-        n += 1
-        each_number(n)
-
-def each_number(num):
-    print(num * num)
-
-matrix()
+count = 1
+for i in range(3):
+    for j in range(3):
+        print(count, end=" ")
+        count += 1
+    print()  # Nueva línea después de cada fila
 
 
