@@ -21,6 +21,9 @@ while True:
         
         products.append(new_items)
 
+        with open("grocery.csv", "a") as file:
+            file.write(f"{new_items['item_name'], new_items['quantity']}\n")
+
     #option 2 see the list
     elif menu == 2:
         #iterate the product list
